@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to FUTA Tech Club</h1>
+        <h4> Learn. Build. Innovate.</h4>
+    </header>
+    <main>
+     <section>
+        <h3>What We Do at FUTA Tech Club</h3>
+        <ul>
+            <li>Host coding bootcamps and tech talks</li>
+            <li>Collaborate on open-source projects</li>
+            <li>Compete in national and international hackathons</li>
+            <li>Network with industry professionals</li>
+            <li>Learn modern tools like Git, VS Code, and Figma</li>
+        </ul><h3>Our Weekly Activities</h3>
+        <ol type="1">
+            <li>Monday – Algorithm Practice</li>
+            <li>Wednesday – Project Collaboration</li>
+            <li>Friday – Tech Talk & Networking</li>
+        </ol>
+     </section>
+     <section>
+         <table border="1" cellpadding="4" cellspacing="0">
+            <caption><strong>Recent Club Events</strong></caption>
+            <thead>
+                <tr>
+                    <th>Event Name</th>
+                    <th>Date</th>
+                    <th>Type</th>
+                    <th>Attendance</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Web Dev Bootcamp</td>
+                    <td>May 2025</td>
+                    <td>Workshop</td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td>HackFUTA Challenge</td>
+                    <td>April 2025</td>
+                    <td>Hackathon</td>
+                    <td>75</td>
+                </tr>
+                <tr>
+                    <td>UI/UX Seminar</td>
+                    <td>March 2025</td>
+                    <td>Seminar</td>
+                    <td>120</td>
+                </tr>
+            </tbody>
+         </table>
+     </section>
+     <section>
+        <h3>Media</h3>
+        <video  controls width="540px" height="380px">
+            <source src="./videos/css_style .mp4"  type="video/mp4">
+        </video><br>
+        <h4>The audio record</h4>
+        <audio  controls>
+            <source src="./audio/Riad al Ihsan Eng Subs Muhammad DIY.mp3" type="audio/mp3">
+        </audio>
+     </section>
+     <section>
+        <h3>Join the FUTA Tech Club!</h3>
+            <form action="" method="Post" autocomplete="on" >
+                <fieldset>
+                    <legend>Membership form</legend>
+                    <h4>Personal Information:</h4>
+
+                    <!--code that caccept personal info through the input tag and radio button-->
+                    <label for="">Name: </label> <input type="text" name="" id="fname" placeholder="Full Name" required><br> <br>
+                    <label for="">Email: </label><input type="text" name="" id="email" placeholder="Email Address" required><br> <br>
+                    <label for="">Phone Number: </label> <input type="tel" name="" id="phone_no" placeholder=" 08034644323" pattern="[0-9] {11}" required><br><br>
+                    <h5>Gender</h5>
+                    <input type="radio" name ="gender">male <br>
+                    <input type="radio" name ="gender">female <br>
+
+                    <!--Code of checkbox tha t helps to select more than one option -->
+                    <h4>Interests</h4>
+                    <input type="checkbox" name="" id="fieldset" value="Web Development"> Web Development<br>
+                    <input type="checkbox" name="" id="fieldset" value="Data Science"> Data Science<br>
+                    <input type="checkbox" name="" id="fieldset" value="Mobile App Development"> Mobile App Development<br>
+                    <input type="checkbox" name="" id="fieldset" value="Cybersecurity"> Cybersecurity<br>
+                    <input type="checkbox" name="" id="fieldset" value="AI/ML"> AI/ML<br>
+                    <input type="checkbox" name="" id="fieldset" value="UI/UX Design"> UI/UX Design<br><br>
+
+                    <label for="">Day you prefer</label>
+                    <select name="day" id="">
+                        <option value="Monday">Monday</option>
+                        <option value="Tuesday">Tuesday</option>
+                        <option value="Wednesday">Wednesday</option>
+                        <option value="Thursday">Thursday</option>
+                        <option value="Friday">Friday</option>
+                    </select><br><br>
+                    <!--Sign up code by making use of input, drop down option in it  -->
+                    <h4>Signup Info</h4>
+                    <label for="">Username: </label> <input type="text" name="" id="username" placeholder="Create Username" maxlength="20" ><br> <br> 
+                    <label for="">Password: </label> <input type="password" name="password" id="" placeholder="Create Password" minlength="8" required><br> <br>
+                    <label for="">Confirm Password: </label> <input type="password" name="password_con" id="" placeholder="Confirm Password" minlength="8" required><br><br>
+
+                    <!--Code that create a textarea for your biography-->
+                    <h4 for="">Your Bio</h4>
+                    <textarea name="" placeholder="Enter a short biography of yours " id="message" rows="8" cols="70" ></textarea>
+                    <br><br>
+
+                    <label for="Upload">Upload Passport: </label>
+                    <input type="file" name="" id="" accept="image/*"><br><br>
+
+                    <!--code that helps to submit -->
+                    <input type="submit" value="Submit">    
+                </fieldset>
+            </form>
+     </section>
+    </main>
+    
+    <footer>
+        <p>Contact us at: futatechclub@example.com</p>
+        <p>&copy; 2025 FUTA Tech Club. All rights reserved</p>
+    </footer>
+</body>
+</html>
